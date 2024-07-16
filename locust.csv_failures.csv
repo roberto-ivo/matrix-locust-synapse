@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences
+PUT,/_matrix/client/v3/profile/_/displayname,"CatchResponseError(""TypeError: argument of type 'NoneType' is not iterable at ~/robertoivo/.virtualenvs/test_synapse/lib/python3.9/site-packages/locust/contrib/fasthttp.py:402 in rest, ~/robertoivo/professional/projetos/abin/dvcom/teste-de-carga/matrix-locust-old/matrix-locust/matrixuser.py:430 in set_displayname. Response was 404 page not found\n"")",7
+GET,/_matrix/client/v3/sync,"CatchResponseError('Could not parse response as JSON. 404 page not found\n, response code 404, error Extra data: line 1 column 5 (char 4)')",32
+GET,/_matrix/client/v3/sync,"CatchResponseError('Could not parse response as JSON. Bad Gateway, response code 502, error Expecting value: line 1 column 1 (char 0)')",34
